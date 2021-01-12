@@ -1,0 +1,10 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier", "plugin:cypress/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}

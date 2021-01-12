@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "sourceMap": true,
+    "noErrorTruncation": true,
+    "noImplicitAny": false,
+    "baseUrl": "./src",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "scripts",
+    "./**/__generated__/*.ts"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx", "../cut/graphql.ts", "../cut/health.ts"
+, "src/lib/apollo.js"  ]
+}
