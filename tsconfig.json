@@ -33,6 +33,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "../cut/graphql.ts", "../cut/health.ts"
-, "src/lib/apollo.js"  ]
+    "**/*.tsx" 
+  ]
 }
